@@ -1,0 +1,100 @@
+$keycolor: hsl(181, 100%, 41%);
+$white: hsl(0, 0%, 96%);
+$black: hsl(0, 0%, 0%);
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    padding: 10vw 2wv;
+    background-color: desaturate($keycolor, .75);
+    text-align: center;
+    color: $white;
+}
+
+// keep this in order (LoVe HAte links_
+//pseudo-class link
+a:link  {
+    color: inherit;
+}
+
+//pseudo-class visited
+a:visited {
+    color: lime;
+}
+
+//pseudo-class hover
+a:hover {
+    color: red;
+}
+
+//pseudo-class active
+a:active {
+    color: purple;
+}
+
+a {
+    color: inherit;
+}
+
+a.btn {
+    background-color: tranparentize($black,0.75);
+    color: white;
+    padding: 15px 20px;
+    opacity: 0.75;
+    transition: background-color all 200ms;
+
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 100;
+    margin: 45px;
+}
+
+#features h2 {
+    border-bottom: 3px double$black;
+    display: inline-block;
+}
+
+header div {
+    width: 35%;
+    padding: 5vw;
+    border-width: 3px 1px;
+    border-style: double solid;
+    border-color: $white;
+    margin:  0 auto;
+}
+
+#features {
+    text-align: center;
+}
+#features ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+        width: 25%;
+        padding:40px;
+        border: 1px solid $black;
+        margin-left: -1px;
+        margin-right: -1px;
+        text-align: center;
+
+        
+
+    }
+}
