@@ -1,0 +1,48 @@
+/*html#ndex {
+    background-color: red
+}
+
+html#about {
+    background-color: green;
+}
+
+#about h1 {
+    font-size: 600%;
+}
+
+
+*/
+
+ul {
+    background-color: hsl (0,0%, 13%);
+    padding: 10px;
+    color: blue;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-bewteen;
+
+}
+    a {
+        color: inherit;
+        font-size: inherit;
+        text-decoration: none;
+        font-weight: 100;
+    }
+
+body {
+    margin:0;
+
+}
+//boxmen 
+.stuff {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: red;
+    padding: 50px;
+    border: 10px dashed blue;
+    margin: 20px;
+    width: calc(100%-40px);
+
+}
