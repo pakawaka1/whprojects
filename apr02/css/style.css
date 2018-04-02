@@ -1,0 +1,27 @@
+/*.p {
+  font-weight: bold;
+}
+
+p#p1 {
+  color: magenta;
+}
+
+p#p2 {
+  color: darkcyan;
+}*/
+
+p1 {
+  color: red
+}
+p2 {
+    color: green
+}
+p3 {
+    color: blue
+}
+
+/*
+p.p:nth-child(4) {
+  color: yellow;
+} */
+/*# sourceMappingURL=style.css.map */
