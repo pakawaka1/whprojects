@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color: #e6e6e6;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#skillsets {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#skillsets li {
+  width: 50%;
+}
+
+.btn {
+  padding: 2vw 4vw;
+  text-transform: uppercase;
+  border: 1px solid light;
+}
+/*# sourceMappingURL=style.css.map */

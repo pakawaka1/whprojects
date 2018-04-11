@@ -20,7 +20,8 @@ ul {
 
 nav ul {
   display: flex;
-  justify-content: space-bewteen;
+  justify-content: space-around;
+  list-style: none;
 }
 
 a {
